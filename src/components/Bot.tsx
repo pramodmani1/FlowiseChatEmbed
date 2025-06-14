@@ -731,7 +731,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
   const handleDisclaimerAccept = () => {
     setDisclaimerPopupOpen(false); // Close the disclaimer popup
-    setCookie('chatbotDisclaimer', 'true', 365); // Disclaimer accepted
+    setCookie('chatbotDisclaimer', 'false', 365); // Disclaimer accepted
   };
 
   const promptClick = (prompt: string) => {
