@@ -1247,7 +1247,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       if (getCookie('chatbotDisclaimer') == 'true') {
         setDisclaimerPopupOpen(false);
       } else {
-        setDisclaimerPopupOpen(true);
+        /* setDisclaimerPopupOpen(true); */
       }
     } else {
       setDisclaimerPopupOpen(false);
