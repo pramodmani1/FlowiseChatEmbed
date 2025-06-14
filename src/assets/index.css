@@ -124,7 +124,7 @@ pre {
 button,
 input,
 textarea {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .slate-a {
@@ -168,7 +168,7 @@ textarea {
     -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
-    Roboto,
+    Roboto Slab,
     Helvetica,
     Arial,
     sans-serif,
@@ -446,7 +446,7 @@ textarea {
   background-color: transparent;
   border: none;
   padding: 10px 10px;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Roboto Slab', 'Open Sans', sans-serif !important;
   color: red;
 }
 @media (max-width: 640px) {
