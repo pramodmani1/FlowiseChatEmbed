@@ -2012,7 +2012,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       )}
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}
 
-      {disclaimerPopupOpen() && (
+      {/*disclaimerPopupOpen() && (
         <DisclaimerPopup
           isOpen={disclaimerPopupOpen()}
           onAccept={handleDisclaimerAccept}
@@ -2029,7 +2029,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
           onDeny={props.closeBot}
           isFullPage={props.isFullPage}
         />
-      )}
+      )*/}
 
       {openFeedbackDialog() && (
         <FeedbackDialog
