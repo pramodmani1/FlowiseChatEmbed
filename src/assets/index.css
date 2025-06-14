@@ -446,7 +446,7 @@ textarea {
   background-color: transparent;
   border: none;
   padding: 10px 10px;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 @media (max-width: 640px) {
   div[part='bot'] {
